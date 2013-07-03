@@ -83,7 +83,11 @@ require(["Pages","views/PagesList", "views/PageEdit", "views/PageDisplay", "view
       view.on('edit', function(){
         self.close(view, ['edit']);
         self.goto(id + '/edit');
-      })
+      });
+      view.on('close', function(){
+        self.close(view, ['edit', 'close']);
+        self.goto('/');
+      });
     },
     edit: function(id){
       var page = pages.get(id);
