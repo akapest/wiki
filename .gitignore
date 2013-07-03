@@ -2,4 +2,6 @@ dist
 tmp
 .idea
 *.iml
+logs
+server.pid
 
