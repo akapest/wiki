@@ -84,8 +84,8 @@ require(["Pages","views/PagesList", "views/PageEdit", "views/PageDisplay", "view
         self.close(view, ['edit']);
         self.goto(id + '/edit');
       });
-      view.on('close', function(){
-        self.close(view, ['edit', 'close']);
+      view.on('cancel', function(){
+        self.close(view, ['edit', 'cancel']);
         self.goto('/');
       });
     },

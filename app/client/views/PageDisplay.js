@@ -6,8 +6,8 @@ define(['Page', 'views/View'], function(Page, View){
       'click .edit': function(){
         this.trigger('edit', this.model.get('id'));
       },
-      'click .close': function(){
-        this.trigger('close');
+      'click .cancel': function(){
+        this.trigger('cancel');
       }
     },
     data: function(){
