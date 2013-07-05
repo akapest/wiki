@@ -13,7 +13,7 @@ A simple single-paged app based on [play] and [backbone].
     </tr>
     <tr>
         <td>==Подзаголовок==</td>
-        <td><h2>Заголовок</h2></td>
+        <td><h2>Подзаголовок</h2></td>
     </tr>
     <tr>
         <td>**Жирный текст**</td>
@@ -28,11 +28,11 @@ A simple single-paged app based on [play] and [backbone].
         <td style="text-decoration: underline;">подчеркивание</td>        
     </tr>
     <tr>
-        <td>[[Адрес_страницы|Текст]</td>
-        <td><a href=/Адрес_страницы>Текст</a></td>        
+        <td>[[Адрес_страницы|ссылка]]</td>
+        <td><a href=/Адрес_страницы>ссылка</a></td>        
     </tr>
     <tr>
-        <td>[[http://google.com|Тут гугл]</td>
-        <td><a href=”http://google.com”>Тут гугли</a></td>        
+        <td>[[http://google.com|ссылка]]</td>
+        <td><a href=”http://google.com”>ссылка</a></td>        
     </tr>
 </table>
