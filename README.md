@@ -1,6 +1,6 @@
 # Wiki 
 
-A simple single-paged app based on [[play]] and [[backbone]]. 
+A simple single-paged app based on [play] and [backbone]. 
 
 [play]:http://www.playframework.com
 [backbone]:http://backbonejs.org
@@ -20,23 +20,19 @@ A simple single-paged app based on [[play]] and [[backbone]].
         <td><b>strong</b></td>        
     </tr>
     <tr>
-        <td>**Жирный текст**</td>
-        <td><b>strong</b></td>        
-    </tr>
-    <tr>
         <td>//курсив//</td>
         <td><i>курсив</i></td>        
     </tr>
     <tr>
         <td>__подчеркивание__</td>
-        <td><u>подчеркивание</u></td>        
+        <td style="text-decoration: underline;">подчеркивание</td>        
     </tr>
     <tr>
-        <td>[[Адрес страницы|Текст]</td>
-        <td><a href=”/Адрес страницы”>Текст</a></td>        
+        <td>[[Адрес_страницы|Текст]</td>
+        <td><a href=/Адрес_страницы>Текст</a></td>        
     </tr>
     <tr>
-        <td>[[Адрес внешней страницы|Текст]</td>
-        <td><a href=”Адрес внешней страницы”>Текст</a></td>        
+        <td>[[http://google.com|Тут гугл]</td>
+        <td><a href=”http://google.com”>Тут гугли</a></td>        
     </tr>
 </table>
